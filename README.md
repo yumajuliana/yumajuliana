@@ -1,6 +1,6 @@
-1. Buatlah perulangan hingga 100 menggunakan Python dengan output sebagai berikut:
+# 1. Buatlah perulangan hingga 100 menggunakan Python dengan output sebagai berikut:
    
----jawaban---
+## jawaban
    
 ![readmi 2](https://github.com/yumajuliana/yumajuliana/assets/150018196/86ff408d-8a9d-4ba7-bf2b-e4f4d513b4a2)
 
@@ -16,7 +16,7 @@ else:
 
 print(i, end=' ')
         
----Penjelasan kode :---
+## Penjelasan kode :
 
 your_name = "your name" -> kode ini adalah kode yang mendifinisan subuah variabel dengan nama your name dan juga memberikan nilai string your name kode ini tidak digunakan dalam loop 
 
@@ -33,7 +33,7 @@ print(i, end=' ')   ->  kode ini di gunakan untuk jika kondisi i tidak terpenuhi
 
 ini adalah hasi output dari kode diatas 
 
-2. Buatlah program bebas, dengan menerapkan if else pada:
+# 2. Buatlah program bebas, dengan menerapkan if else pada:
    
 a. For Loops
 
@@ -41,7 +41,7 @@ b. While Loops
 
 ---jawaban---
 
-a. For Loops
+## a. For Loops
 
 ![kode readmi 3](https://github.com/yumajuliana/yumajuliana/assets/150018196/830d1651-6d86-4793-9725-a0d7c6f9a80f)
 
@@ -65,7 +65,7 @@ else:
  
 print(f"Jumlah bilangan genap dalam rentang {batas_bawah}-{batas_atas}: {jumlah_genap}")
 
----penjelasan kode---
+## penjelasan kode
 
 batas_bawah = 1  -> kode ini digunakan untuk menentukan batas bawah rentang nilainya adalah 1-10 sedangkan batas bawahnya adalah 1 "batas_atas = 10" sedangkan kode ini adalah di gukan untuk menentukan batas 
 
@@ -73,11 +73,11 @@ jumlah_ganjil = 0 -> variabel ini digunakan untuk menyimpan jumlah bilangan ganj
 
 for angka in range(batas_bawah, batas_atas + 1): -> ini adalah for loops yang akan berinteraksi dengan semua angka dalam rentang batas bawah hinngga batas atas untuk setiap interasksi itu dilakukan pengecekan dengan "if angka % 2 == 0:" maka ini akan memeriksa apakah angka tersebut habis dibagi dengan 2 jika habis dibagi 2 makan angka tersebut merupakan bilangan genap jika kondisi terpenuhi makan jumlah genap akan ditambah satu dengan kode ini "jumlah_genap += 1" jika tidak (else) akan di eksekusi dan jumlah ganjil akan di tambah 1 kemudian jika loop sudah selesai maka kode "print" akan mencetak hasilnya
 
----luaran / output dari kode di atas---
+## luaran / output dari kode di atas
 
 ![luaran readmi 3](https://github.com/yumajuliana/yumajuliana/assets/150018196/f3ece849-429c-49ad-a8f4-8386bc784e5d)
 
-b. While Loops
+## b. While Loops
 
 ![kode readmi 4](https://github.com/yumajuliana/yumajuliana/assets/150018196/73805f0b-992a-430c-853b-09000f09d1c2)
 
@@ -97,7 +97,7 @@ angka -= 1
 
 print("\nPenghitungan selesai.")
 
----penjelasan---
+## penjelasan
 
 angka = int(input("Masukkan sebuah angka: ")) -> kode ini digunkan untuk  kode ini meminta pengguna untuk memsaukkan angka dan angka yang di masukkan oleh pengguna tersebut akan di simpan dalam variabel angka dan ini menggunakan tipe data integer "while angka >= 1:" kode ini menggunakan loop while yang mana di gunakan untuk melakukan interasi nilai angka lebih besar atau sama dengan 1 
 
