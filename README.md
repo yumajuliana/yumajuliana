@@ -73,11 +73,44 @@ jumlah_ganjil = 0 -> variabel ini digunakan untuk menyimpan jumlah bilangan ganj
 
 for angka in range(batas_bawah, batas_atas + 1): -> ini adalah for loops yang akan berinteraksi dengan semua angka dalam rentang batas bawah hinngga batas atas untuk setiap interasksi itu dilakukan pengecekan dengan "if angka % 2 == 0:" maka ini akan memeriksa apakah angka tersebut habis dibagi dengan 2 jika habis dibagi 2 makan angka tersebut merupakan bilangan genap jika kondisi terpenuhi makan jumlah genap akan ditambah satu dengan kode ini "jumlah_genap += 1" jika tidak (else) akan di eksekusi dan jumlah ganjil akan di tambah 1 kemudian jika loop sudah selesai maka kode "print" akan mencetak hasilnya
 
----luaran / ouput dari kode di atas 
+---luaran / output dari kode di atas---
 
 ![luaran readmi 3](https://github.com/yumajuliana/yumajuliana/assets/150018196/f3ece849-429c-49ad-a8f4-8386bc784e5d)
 
+b. While Loops
 
+![kode readmi 4](https://github.com/yumajuliana/yumajuliana/assets/150018196/73805f0b-992a-430c-853b-09000f09d1c2)
+
+angka = int(input("Masukkan sebuah angka: "))
+
+while angka >= 1:
+
+if angka == 1:
+
+print(angka, end="")
+
+else:
+
+print(angka, end=" -> ")
+
+angka -= 1
+
+print("\nPenghitungan selesai.")
+
+---penjelasan---
+
+angka = int(input("Masukkan sebuah angka: ")) -> kode ini digunkan untuk  kode ini meminta pengguna untuk memsaukkan angka dan angka yang di masukkan oleh pengguna tersebut akan di simpan dalam variabel angka dan ini menggunakan tipe data integer "while angka >= 1:" kode ini menggunakan loop while yang mana di gunakan untuk melakukan interasi nilai angka lebih besar atau sama dengan 1 
+
+Di dalam program ini, terdapat  pengkondisian if-else:
+
+Jika angka sama dengan 1 (if angka == 1:), maka program akan mencetak nilai angka tanpa tanda panah (->) dan menggunakan parameter end="" untuk menghindari baris baru setelah mencetak.
+jika angka tidak sama dengan satu makan program ini akan mencetak nilai atau hasil dengan menggunakan tanda panah dan menggunakan prameter end=" -> " untuk memberikan pemisahnya. 
+
+"angka -= 1" setelah berinterasi maka setaip angka akan di kurangi satu dan jika perhitungan sudah selesai maka program akan mencetak penghitungan selesai "print("\nPenghitungan selesai.")
+"
+---luaran atau output dari program di atas---
+
+![output kode readmi 4](https://github.com/yumajuliana/yumajuliana/assets/150018196/f99fc5fb-f0e4-41da-9e9a-3ebd91a57b68)
 
 
  
